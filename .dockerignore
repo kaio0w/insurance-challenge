@@ -1,0 +1,9 @@
+.git
+.gitignore
+.idea
+.vscode
+target
+.cpcache
+.DS_Store
+**/*.log
+test

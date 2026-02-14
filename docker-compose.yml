@@ -1,0 +1,15 @@
+services:
+  insurer:
+    image: public.ecr.aws/i80/challenge-api
+    ports:
+      - "8080:5000"
+
+  api:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      INSURER_API_KEY: ${INSURER_API_KEY}
+      INSURER_BASE_URL: ${INSURER_BASE_URL:-http://insurer:5000}
+    depends_on:
+      - insurer
