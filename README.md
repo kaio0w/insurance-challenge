@@ -64,7 +64,7 @@ http://localhost:3000/swagger/
 A aplicação utiliza:
 
 ```bash
-INSURER_API_KEY=Ea8xNE2q2kRuWqR
+INSURER_API_KEY=
 INSURER_BASE_URL=http://insurer:5000
 ```
 
