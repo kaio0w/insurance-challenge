@@ -243,9 +243,6 @@ docker build -t insurance-challenge .
 docker run -p 3000:3000 insurance-challenge
 ```
 
----
-
-
 ## 📌 Conclusão
 
 A API foi construída com foco em:
