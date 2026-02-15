@@ -245,29 +245,6 @@ docker run -p 3000:3000 insurance-challenge
 
 ---
 
-## 🧠 Decisões Técnicas
-
-- **In-memory store (atom)**: suficiente para desafio técnico
-- **Service layer isolada**: facilita testes
-- **Mock completo da seguradora em testes**
-- **Timeouts explícitos**
-- **Rate limit leve**
-- **Validação via Malli + Coercion do Reitit**
-- **2xx treated as success (robustez)**
-
----
-
-## ⚠️ Possíveis melhorias futuras
-
-- Persistência real (PostgreSQL)
-- Rate limiting distribuído (Redis)
-- Observabilidade (logs estruturados)
-- Retry com backoff exponencial
-- Circuit breaker
-- Autenticação JWT para parceiros
-- Metrics (Prometheus)
-
----
 
 ## 📌 Conclusão
 
